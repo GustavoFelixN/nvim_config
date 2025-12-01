@@ -19,6 +19,9 @@ vim.keymap.set('t', '<C-t>', [[<C-\><C-n> :FloatermToggle<CR>]], {
     desc = 'Toggle floaterm',
 })
 
+-- Code navigation
+vim.keymap.set('n', '<leader>n', '<cmd>Navbuddy<CR>', { desc = 'Open navbuddy' })
+
 -- Window navigation
 vim.keymap.set('n', '<C-h>', '<C-w><C-h>', { desc = 'Move to left window' })
 vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move to right window' })
